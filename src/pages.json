@@ -1,12 +1,44 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+      "path": "pages/channel/index",
+      "style": {
+        "disableScroll": true
+      }
+    },
+		{
+			"path": "pages/member/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"disableScroll": true
 			}
 		}
 	],
+	"tabBar": {
+    "color": "#BBBBBD",
+    "selectedColor": "#1C1C1C",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/channel/index",
+        "iconPath": "static/tabbar_icon_channel.png",
+        "selectedIconPath": "static/tabbar_icon_channel_active.png",
+        "text": "会员专属"
+      },
+      {
+        "pagePath": "pages/member/index",
+        "iconPath": "static/tabbar_icon_member.png",
+        "selectedIconPath": "static/tabbar_icon_member_active.png",
+        "text": "掌通会员"
+      }
+    ]
+  },
+	"subPackages": [{
+		"root": "pages",
+		"pages": [{
+			"path": "member/index"
+		}]
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
