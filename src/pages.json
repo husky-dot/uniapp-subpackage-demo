@@ -12,6 +12,11 @@
 		"pages": [{
 			"path": "detail/index"
 		}]
+	}, {
+		"root": "pagesB",
+		"pages": [{
+			"path": "detail/index"
+		}]
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
