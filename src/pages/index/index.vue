@@ -1,6 +1,5 @@
 <template>
 	<view class="content">
-	    <image class="logo" src="../../pagesA/static/test.png" />
 		<button @click="goToDetail">跳转到详情页面</button>
 	</view>
 </template>
