@@ -5,13 +5,13 @@
       "style": {
         "navigationBarTitleText": "首页"
       }
+    },
+    {
+    	"path": "pages/activity/detail",
+    	"style": {
+    		"navigationBarTitleText": "活动详情"
+    	}
     }
-    // {
-    // 	"path": "pages/activity/detail",
-    // 	"style": {
-    // 		"navigationBarTitleText": "活动详情"
-    // 	}
-    // }
   ],
   "subPackages": [
     // {
@@ -22,14 +22,14 @@
     //     }
     //   ]
     // }
-    {
-      "root": "pages/activity",
-      "pages": [
-        {
-          "path": "detail"
-        }
-      ]
-    }
+    // {
+    //   "root": "pages/activity",
+    //   "pages": [
+    //     {
+    //       "path": "detail"
+    //     }
+    //   ]
+    // }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
